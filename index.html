@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ivana Yesania Anjelie - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="scroll-indicator"></div>
+  
+  <header>
+    <div class="header-content">
+      <h1>Ivana Yesania Anjelie</h1>
+      <nav id="navbar">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#volunteer">Volunteering</a>
+        <a href="#resume-detail">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="mobile-menu" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="about">
+      <img src="styles/profile.jpg" alt="Ivana Yesania Anjelie" class="profile-image">
+      <p>
+        Hi, I'm Ivana, a Computer Science student at Bina Nusantara University with a strong interest in Design, Testing and Data. 
+        Skilled in communication, adaptable, and motivated to learn. Experienced in UI/UX design and 
+        Data Processing, seeking career opportunities as UI/UX Designer, QA Tester, Data Analyst, or 
+        Database Administrator.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="styles/birent.png" alt="Birent Rental Car">
+          <h3>Birent Rental Car</h3>
+          <p>A comprehensive car rental platform with modern UI/UX design, booking system, and payment integration.</p>
+          <a href="#birent-detail" class="btn"><span>View Project</span></a>
+        </div>
+        <div class="card">
+          <img src="styles/sitani.png" alt="SiTani Plant App">
+          <h3>SiTani Plant App</h3>
+          <p>Mobile application for plant care management with disease detection and treatment recommendations.</p>
+          <a href="#sitani-detail" class="btn"><span>View Project</span></a>
+        </div>
+        <div class="card">
+          <img src="styles/healthducate.png" alt="Healthducate App">
+          <h3>Healthducate</h3>
+          <p>Health education platform promoting wellness through interactive content and personalized recommendations.</p>
+          <a href="#healthducate-detail" class="btn"><span>View Project</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership -->
+    <section id="leadership">
+      <h2 class="section-title">Leadership</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="styles/sportify.jpg" alt="Secretary of Sportify 2025">
+          <h3>Secretary of Sportify 2025</h3>
+          <p>Leading administrative tasks, creating proposals, and managing comprehensive reports as secretary.</p>
+          <a href="#sportify-detail" class="btn"><span>View Details</span></a>
+        </div>
+        <div class="card">
+          <img src="styles/ldkcp2.jpg" alt="Staff of Event Division">
+          <h3>Staff of Event Division LDK-CP 2025</h3>
+          <p>Responsible for creating event rundowns and coordinating with various stakeholders.</p>
+          <a href="#ldkcp-detail" class="btn"><span>View Details</span></a>
+        </div>
+        <div class="card">
+          <img src="styles/danus.jpg" alt="Fundraising Coordinator">
+          <h3>Fundraising Coordinator of ESR 2025</h3>
+          <p>Managing product sales strategies based on capital calculations and profit optimization.</p>
+          <a href="#fundraising-detail" class="btn"><span>View Details</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Volunteer -->
+    <section id="volunteer">
+      <h2 class="section-title">Volunteering</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="styles/esr.jpg" alt="Eat, Sleep & Recycle">
+          <h3>Eat, Sleep & Recycle 2024</h3>
+          <p>Managing donation booths and evaluating clothing condition for recycling initiatives.</p>
+          <a href="#esr-detail" class="btn"><span>View Details</span></a>
+        </div>
+        <div class="card">
+          <img src="styles/paud.jpg" alt="Teaching Kindergarten">
+          <h3>Binus Social Event 2025: Teaching Kindergarten</h3>
+          <p>Teaching reading, writing, motor skills through exercise, and creative drawing to young children.</p>
+          <a href="#teaching-detail" class="btn"><span>View Details</span></a>
+        </div>
+        <div class="card">
+          <img src="styles/rector.jpg" alt="Rector Cup">
+          <h3>Rector Cup 2024</h3>
+          <p>Volunteer in competition division, handling participant registration and event coordination.</p>
+          <a href="#rector-detail" class="btn"><span>View Details</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2 class="section-title">Let's Connect 💌</h2>
+      <p>Let’s create something great together or simply start with a hello!</p>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanayesania27@gmail.com&su=Hello%20Ivana&body=Hi%20Ivana,%20I%20would%20like%20to%20connect%20with%20you." 
+        class="btn" target="_blank">
+        <span>Email</span>
+      </a>
+      <a href="https://github.com/anjelieca" class="btn" target="_blank"> GitHub</a>
+      <a href="https://www.linkedin.com/in/ivanayesaniaanjelie" class="btn" target="_blank">LinkedIn</a>
+      <a href="https://wa.me/+6281310646843" class="btn" target="_blank">Whatsapp</a>
+    </section>
+
+    <!-- Detail Sections (Hidden by default, shown via anchor links) -->
+    
+    <!-- Birent Detail -->
+    <div id="birent-detail" class="detail-overlay">
+      <div class="detail-content">
+        <a href="#projects" class="close-detail">&times;</a>
+        <img src="styles/birent.png" alt="Birent Rental Car">
+        <h3>Birent Rental Car</h3>
+        <p><strong>Description:</strong> Birent is a modern solution for your car rental needs. We provide fast, easy, and reliable car rental services through our app. With a wide selection of vehicles, transparent pricing, and a simple booking process, Birent is committed to providing a comfortable and safe driving experience for all customers.
+
+Founded with a spirit of innovation and excellent service, Birent is here to simplify your mobility, whether for business trips, vacations, or daily needs. Discover the comfort of your journey with Birent—smart mobility, right at your fingertips!.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Modern responsive web design.</li>
+          <li>Advanced booking system with calendar integration.</li>
+          <!-- <li>Secure payment gateway integration</li> -->
+          <!-- <li>Real-time vehicle availability tracking</li> -->
+          <li>User dashboard with booking history.</li>
+          <li>Admin panel for fleet management.</li>
+        </ul>
+        <p><strong>Technologies:</strong> React.js, Node.js, MongoDB, HTML, CSS, JavaScript, SQL, Laravel, PHP.</p>
+        <p><strong>Duration:</strong> 6 months</p>
+        <p><strong>Project:</strong> Group</p>
+        <p><strong>Role:</strong> Full-stack Developer & UI/UX Designer</p>
+        <p>
+          <strong>Github:</strong> 
+          <a href="https://github.com/TingCoding/aol-birent" target="_blank">
+            Birent Rentak Car (click here)
+          </a>
+        </p>
+        <a href="#projects" class="btn"><span>Back to Projects</span></a>
+      </div>
+    </div>
+
+    <!-- Sitani Detail -->
+    <div id="sitani-detail" class="detail-overlay">
+      <div class="detail-content">
+        <a href="#projects" class="close-detail">&times;</a>
+        <img src="styles/sitani.png" alt="SiTani Plant App">
+        <h3>SiTani Plant App</h3>
+        <p><strong>Description:</strong> SiTani is an innovative mobile application designed to help plant enthusiasts take better care of their green companions. Using AI-powered plant disease detection and comprehensive care guides.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>AI-powered plant disease detection using camera.</li>
+          <li>Comprehensive plant care database.</li>
+          <li>Personalized watering and fertilizing schedules.</li>
+          <li>Plant health tracking and history.</li>
+          <li>Expert consultation feature.</li>
+          <li>Community forum for plant enthusiasts.</li>
+        </ul>
+        <p><strong>Technologies:</strong> Figma</p>
+        <p><strong>Duration:</strong> 1 months</p>
+        <p><strong>Role:</strong> UI/UX Designer</p>
+        <p>
+          <strong>Figma:</strong> 
+          <a href="https://www.figma.com/design/WSkMoWI9sjp7KH4k9KnWAp/TechFest---StayWaras?node-id=83-477&t=a3JU6UWWwaE2iyM7-1" target="_blank">
+            SiTani Apps (click here)
+          </a>
+        </p>
+        <a href="#projects" class="btn"><span>Back to Projects</span></a>
+      </div>
+    </div>
+
+    <!-- Healthducate Detail -->
+    <div id="healthducate-detail" class="detail-overlay">
+      <div class="detail-content">
+        <a href="#projects" class="close-detail">&times;</a>
+        <img src="styles/healthducate.png" alt="Healthducate">
+        <h3>Healthducate</h3>
+        <p><strong>Description:</strong> Healthducate is a comprehensive health education platform that promotes wellness through interactive content, personalized recommendations, and evidence-based health information.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Interactive health education modules.</li>
+          <li>Personalized health recommendations.</li>
+          <li>Progress tracking and analytics.</li>
+          <li>Expert-verified medical content.</li>
+          <li>Multi-language support.</li>
+          <li>Mobile-responsive design.</li>
+        </ul>
+        <p><strong>Technologies:</strong> Figma</p>
+        <p><strong>Duration:</strong> 2 months</p>
+        <p><strong>Role:</strong> Product Designer</p>
+        <p>
+          <strong>Figma:</strong> 
+          <a href="https://www.figma.com/design/7h50PFt1QfWVQ5x3ws0iyv/Healthducate-mobile-?node-id=249-1518&t=z2F9GQa7wc9mSgcS-1" target="_blank">
+            Healthducate  (click here)
+          </a>
+        </p>
+        <a href="#projects" class="btn"><span>Back to Projects</span></a>
+      </div>
+    </div>
+
+    <!-- Sportify Detail -->
+    <div id="sportify-detail" class="detail-overlay">
+      <div class="detail-content">
+        <a href="#leadership" class="close-detail">&times;</a>
+        <img src="styles/sportify.jpg" alt="Secretary of Sportify 2025">
+        <h3>Secretary of Sportify 2025</h3>
+        <p><strong>Description:</strong> As Secretary of Sportify 2025, I managed all administrative responsibilities for the annual sports festival, ensuring smooth operations and excellent documentation.</p>
+        <p><strong>Responsibilities:</strong></p>
+        <ul>
+          <li>Created comprehensive event proposals and budgets.</li>
+          <li>Managed all official correspondence and documentation.</li>
+          <li>Coordinated with university departments and sponsors.</li>
+          <li>Maintained detailed records of meetings and decisions.</li>
+          <li>Prepared final event reports and evaluations.</li>
+          <!-- <li>Supervised administrative team of 5 members</li> -->
+        </ul>
+        <!-- <p><strong>Achievements:</strong></p> -->
+        <ul>
+          <!-- <li>Successfully organized 15+ sporting events</li>
+          <li>Managed budget of $50,000 with 100% accountability</li>
+          <li>Increased participant registration by 40%</li>
+          <li>Received excellence award for documentation</li> -->
+        </ul>
+        <p><strong>Duration:</strong> 4 months</p>
+        <p><strong>Skills:</strong> Leadership, Written Communication, Documentation & Reporting, administrative Management, Collaboration</p>
+        <a href="#leadership" class="btn"><span>Back to Leadership</span></a>
+      </div>
+    </div>
+
+    <!-- LDK-CP Detail -->
+    <div id="ldkcp-detail" class="detail-overlay">
+      <div class="detail-content">
+        <a href="#leadership" class="close-detail">&times;</a>
+        <img src="styles/ldkcp2.jpg" alt="Staff of Event Division">
+        <h3>Staff of Event Division LDK-CP 2025</h3>
+        <p><strong>Description:</strong> Working as staff in the Event Division for LDK-CP 2025, I was responsible for creating detailed event schedules and coordinating with various stakeholders.</p>
+        <p><strong>Responsibilities:</strong></p>
+        <ul>
+          <li>Created detailed event rundowns and timelines.</li>
+          <li>Coordinated with speakers, vendors, and participants.</li>
+          <li>Managed logistics for multiple concurrent events.</li>
+          <li>Supervised event setup and breakdown.</li>
+          <li>Handled emergency situations and quick decisions.</li>
+          <li>Maintained communication with all stakeholders.</li>
+        </ul>
+        <p><strong>Achievements:</strong></p>
+        <ul>
+          <li>Organized 8 successful events with 1000+ attendees.</li>
+          <li>Zero major incidents or delays.</li>
+          <!-- <li>Improved event satisfaction scores by 25%</li> -->
+          <li>Developed new coordination protocols.</li>
+        </ul>
+        <p><strong>Duration:</strong> 4 months</p>
+        <p><strong>Skills:</strong> Event Management, Comnunication Skill, Coordination, Problem Solving, Teamwork.</p>
+        <a href="#leadership" class="btn"><span>Back to Leadership</span></a>
+      </div>
+    </div>
+
+    <!-- Fundraising Detail -->
+    <div id="fundraising-detail" class="detail-overlay">
+      <div class="detail-content">
+        <a href="#leadership" class="close-detail">&times;</a>
+        <img src="styles/danus.jpg" alt="Fundraising Coordinator">
+        <h3>Fundraising Coordinator ESR 2025</h3>
+        <p><strong>Description:</strong> As Fundraising Coordinator for ESR 2025, I developed and executed strategies for selling products while optimizing profit margins and managing capital effectively.</p>
+        <p><strong>Responsibilities:</strong></p>
+        <ul>
+          <li>Developed pricing strategies based on market analysis.</li>
+          <li>Managed inventory and capital allocation.</li>
+          <li>Coordinated with suppliers and vendors.</li>
+          <li>Trained sales team members./li>
+          <li>Analyzed sales data and adjusted strategies.</li>
+          <li>Created financial reports for stakeholders.</li>
+        </ul>
+        <p><strong>Achievements:</strong></p>
+        <ul>
+          <li>Raised 100++ items per pre-order.</li>
+          <li>Achieved 45% profit margin on products./li>
+          <li>Built partnerships with 12 local vendors.</li>
+          <li>Reduced operational costs by 30%.</li>
+        </ul>
+        <p><strong>Duration:</strong> 6 months</p>
+        <p><strong>Skills:</strong> Financial Planning, Sales Strategy, Data Analysis, Negotiation, Reporting Sales.</p>
+        <a href="#leadership" class="btn"><span>Back to Leadership</span></a>
+      </div>
+    </div>
+
+    <!-- ESR Detail -->
+    <div id="esr-detail" class="detail-overlay">
+      <div class="detail-content">
+        <a href="#volunteer" class="close-detail">&times;</a>
+        <img src="styles/esr.jpg" alt="Eat, Sleep & Recycle">
+        <h3>Eat, Sleep & Recycle 2024</h3>
+        <p><strong>Description:</strong> Volunteered for the Eat, Sleep & Recycle environmental initiative, managing donation booths and evaluating clothing condition for recycling programs.</p>
+        <p><strong>Responsibilities:</strong></p>
+        <ul>
+          <li>Managed clothing donation booth operations.</li>
+          <li>Evaluated and sorted donated clothing items.</li>
+          <li>Educated donors about recycling initiatives.</li>
+          <li>Maintained organized inventory system.</li>
+          <li>Collaborated with team members for efficient operations.</li>
+          <li>Assisted in event setup and breakdown.</li>
+        </ul>
+        <p><strong>Impact:</strong></p>
+        <ul>
+          <li>Processed over 2,000 clothing items.</li>
+          <!-- <li>Engaged with 500+ community members</li> -->
+          <li>Contributed to recycling 1.5 tons of textiles.</li>
+          <li>Helped raise environmental awareness.</li>
+        </ul>
+        <p><strong>Duration:</strong> 3 days</p>
+        <p><strong>Skills:</strong> Teamwork, Communication, Organization, Environmental Awareness</p>
+        <a href="#volunteer" class="btn"><span>Back to Volunteering</span></a>
+      </div>
+    </div>
+
+    <!-- Teaching Detail -->
+    <div id="teaching-detail" class="detail-overlay">
+      <div class="detail-content">
+        <a href="#volunteer" class="close-detail">&times;</a>
+        <img src="styles/paud.jpg" alt="Teaching Kindergarten">
+        <h3>Teaching Kindergarten</h3>
+        <p><strong>Description:</strong> Volunteered as a kindergarten teacher, helping young children develop fundamental skills in reading, writing, motor coordination, and creative expression.</p>
+        <p><strong>Responsibilities:</strong></p>
+        <ul>
+          <li>Taught basic reading and writing skills.</li>
+          <li>Led physical exercise activities.</li>
+          <li>Guided creative drawing and art sessions</li>
+          <li>Created engaging lesson plans for young learners.</li>
+          <li>Monitored individual student progress.</li>
+          <li>Communicated with parents about child development.</li>
+        </ul>
+        <p><strong>Impact:</strong></p>
+        <ul>
+          <li>Taught 20+ kindergarten students.</li>
+          <li>Developed 20+ interactive learning activities.</li>
+          <!-- <li>Improved student engagement by 35%</li> -->
+          <li>Received positive feedback from parents and school.</li>
+        </ul>
+        <p><strong>Duration:</strong> 6 months</p>
+        <p><strong>Skills:</strong> Teaching, Patience, Creativity, Child Development, Communication</p>
+        <a href="#volunteer" class="btn"><span>Back to Volunteering</span></a>
+      </div>
+    </div>
+
+    <!-- Rector Cup Detail -->
+    <div id="rector-detail" class="detail-overlay">
+      <div class="detail-content">
+        <a href="#volunteer" class="close-detail">&times;</a>
+        <img src="styles/rector.jpg" alt="Rector Cup">
+        <h3>Rector Cup 2024</h3>
+        <p><strong>Description:</strong> Volunteered in the competition division for Rector Cup 2024, handling participant registration and coordinating various aspects of the sporting event.</p>
+        <p><strong>Responsibilities:</strong></p>
+        <ul>
+          <li>Managed participant registration process.</li>
+          <li>Verified eligibility and documentation.</li>
+          <li>Coordinated with competition organizers.</li>
+          <li>Handled participant inquiries and concerns.</li>
+          <li>Maintained accurate attendance records.</li>
+          <li>Assisted with event logistics and setup.</li>
+        </ul>
+        <p><strong>Impact:</strong></p>
+        <ul>
+          <li>Processed 100+ participant registrations.</li>
+          <li>Maintained 99% accuracy in registration data.</li>
+          <li>Resolved 50+ participant inquiries efficiently.</li>
+          <li>Contributed to smooth event operations./li>
+        </ul>
+        <p><strong>Duration:</strong> 1 week</p>
+        <p><strong>Skills:</strong> Organization, Customer Service, Data Management, Problem Solving</p>
+        <a href="#volunteer" class="btn"><span>Back to Volunteering.</span></a>
+      </div>
+    </div>
+
+    <div id="resume-detail" class="detail-overlay">
+      <div class="detail-content">
+        <a href="#resume-detail" class="close-detail">&times;</a> <!-- tombol X close -->
+        <img src="styles/CV_Ivana Yesania Anjelie.png" alt="Resume">
+        <!-- <h3>My Resume</h3> -->
+        <!-- <p>Here is a preview of my CV in PNG format. You can zoom or download for details.</p> -->
+        <a href="#about" class="btn"><span>Back to Home</span></a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Ivana Yesania Anjelie. All rights reserved.
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navbar = document.getElementById('navbar');
+      navbar.classList.toggle('active');
+    }
+
+    window.addEventListener('scroll', () => {
+      const scrollTop = document.documentElement.scrollTop;
+      const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrollPercent = (scrollTop / scrollHeight) * 100;
+      document.querySelector('.scroll-indicator').style.width = scrollPercent + '%';
+    });
+  </script>
+</body>
+</html>
